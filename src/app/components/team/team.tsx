@@ -14,7 +14,7 @@ import "./team.scss";
 
 const teamData = [
   {
-    src: "/team/fedorenkov.jpg",
+    src: "/top-fight-gym/team/fedorenkov.jpg",
     name: "Федоренков Виталий",
     description: [
       "Мастер спорта РФ",
@@ -22,7 +22,7 @@ const teamData = [
     ],
   },
   {
-    src: "/team/fedorenkov.jpg",
+    src: "/top-fight-gym/team/fedorenkov.jpg",
     name: "Панин Вячеслав",
     description: [
       "Мастер спорта РФ",
@@ -30,7 +30,7 @@ const teamData = [
     ],
   },
   {
-    src: "/team/fedorenkov.jpg",
+    src: "/top-fight-gym/team/fedorenkov.jpg",
     name: "Коваленко Станислав",
     description: [
       "Мастер Спорта РФ рукопашный бой/панкратион.",
