@@ -1,0 +1,42 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.block-main {
+  @include lg {
+    padding: 0 10%;
+  }
+
+  @include xl {
+    padding: 0 15%;
+  }
+}
+
+.block-group {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  @include lg {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.block > h2,
+.block > h3,
+.block > p {
+  @include lg {
+    text-align: center;
+  }
+}

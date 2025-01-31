@@ -1,0 +1,62 @@
+.team .swiper {
+  margin-top: 30px;
+  padding-bottom: 60px;
+  max-width: 100%;
+}
+
+.team .swiper-button-prev,
+.team .swiper-button-next {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  border: 1px solid $secondary-color-main;
+  border-radius: 50%;
+}
+
+.team .swiper-button-prev {
+  transform: scaleX(-1);
+}
+
+.team .swiper-button-prev::after,
+.team .swiper-button-next::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/arrow.svg");
+  background-size: cover;
+}
+
+.team .swiper-button-prev {
+  right: 60px;
+}
+
+.team .swiper-button-next {
+  right: 0;
+}
+
+.team .swiper-pagination {
+  width: fit-content;
+  height: 48px;
+  position: absolute;
+  top: auto;
+  right: auto;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.team .swiper-pagination-bullet {
+  background-color: $secondary-color-dark;
+}
+
+.team .swiper-pagination-bullet-active {
+  background-color: $secondary-color-main;
+}

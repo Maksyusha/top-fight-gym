@@ -1,0 +1,15 @@
+.container {
+  padding: 16px;
+
+  @include md {
+    padding: 24px;
+  }
+
+  @include lg {
+    padding: 32px;
+  }
+
+  @include xl {
+    padding: 40px;
+  }
+}

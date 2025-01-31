@@ -1,0 +1,16 @@
+.prices .swiper {
+  max-width: 100%;
+}
+
+.prices .swiper-pagination {
+  margin-top: 12px;
+  position: static;
+}
+
+.prices .swiper-pagination-bullet {
+  background-color: $secondary-color-dark;
+}
+
+.prices .swiper-pagination-bullet-active {
+  background-color: $secondary-color-main;
+}

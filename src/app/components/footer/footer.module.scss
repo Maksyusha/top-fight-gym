@@ -1,0 +1,50 @@
+.footer {
+  max-width: $max-content-width;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+
+  @include md {
+    gap: 40px;
+  }
+
+  @include lg {
+    gap: 60px;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+
+  @include md {
+    padding: 0 10%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @include lg {
+    padding: 0 15%;
+  }
+
+  @include xl {
+    padding: 0 20%;
+  }
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 8;
+}
+
+.copyright {
+  text-align: center;
+}

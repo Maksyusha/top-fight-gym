@@ -1,0 +1,88 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary-color-main;
+  z-index: 5;
+}
+
+.container {
+  width: 100%;
+  max-width: $max-content-width;
+  min-height: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  background-color: transparent;
+}
+
+.burger:hover {
+  opacity: $opacity;
+}
+
+.burger > span {
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  display: block;
+  background-color: $secondary-color-main;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: transform $transition-duration $transition-timing-func;
+}
+
+.burger > span:first-child {
+  transform-origin: 0% 0%;
+}
+
+.burger > span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+.burger-active > span {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0px, 3px);
+}
+
+.burger-active > span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.burger-active > span:nth-last-child(2) {
+  transform: rotate(45deg) translate(-5px, -9px);
+}
+
+.nav {
+  max-height: 0;
+  transition: max-height $transition-duration $transition-timing-func;
+  background-color: $primary-color-main;
+  overflow: hidden;
+}
+
+.nav-active {
+  height: 100dvh;
+  max-height: 100dvh;
+}
+
+.nav-list {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}

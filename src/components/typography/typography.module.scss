@@ -1,0 +1,61 @@
+.h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.body1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.body2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.primary {
+  color: $primary-color-contras-text;
+}
+
+.secondary {
+  color: $secondary-color-contras-text;
+}
+
+.section-title {
+  @include lg {
+    text-align: center;
+  }
+}

@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
+
+  @include lg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, fit-content(1px));
+    gap: 40px 60px;
+  }
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.service-item:last-child {
+  @include lg {
+    max-width: 50%;
+    grid-area: 3 / 1 / -1 / -1;
+    justify-self: center;
+  }
+}
+
+.service-item > h3,
+.service-item > p {
+  @include lg {
+    text-align: center;
+  }
+}
+
+.link:hover {
+  opacity: $opacity;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+  border: 1px solid $secondary-color-main;
+  border-radius: 50%;
+}
