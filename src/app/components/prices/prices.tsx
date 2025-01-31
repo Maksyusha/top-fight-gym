@@ -93,7 +93,7 @@ const PriceCard: FC<PriceCardProps> = ({ name, price, amount, includes }) => {
                 <Typography>
                   <Image
                     className={styles["card-list-icon"]}
-                    src="/daw.svg"
+                    src="/top-fight-gym/daw.svg"
                     alt="Галка"
                     width={16}
                     height={16}

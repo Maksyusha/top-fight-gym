@@ -48,6 +48,12 @@ const sassOptions = {
 
 const nextConfig: NextConfig = {
   /* config options here */
+  basePath: "/top-fight-gym",
+  output: "export",
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
   sassOptions: {
     ...sassOptions,
   },

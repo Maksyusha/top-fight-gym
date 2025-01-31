@@ -63,7 +63,7 @@ const GymSwiper = () => {
         <SwiperSlide>
           <Image
             className={styles.image}
-            src="/gym/gym-1.jpg"
+            src="/top-fight-gym/gym/gym-1.jpg"
             alt="Фото зала"
             width={1600}
             height={900}
@@ -72,7 +72,7 @@ const GymSwiper = () => {
         <SwiperSlide>
           <Image
             className={styles.image}
-            src="/gym/gym-1.jpg"
+            src="/top-fight-gym/gym/gym-1.jpg"
             alt="Фото зала"
             width={1600}
             height={900}
@@ -81,7 +81,7 @@ const GymSwiper = () => {
         <SwiperSlide>
           <Image
             className={styles.image}
-            src="/gym/gym-1.jpg"
+            src="/top-fight-gym/gym/gym-1.jpg"
             alt="Фото зала"
             width={1600}
             height={900}
@@ -90,7 +90,7 @@ const GymSwiper = () => {
         <SwiperSlide>
           <Image
             className={styles.image}
-            src="/gym/gym-1.jpg"
+            src="/top-fight-gym/gym/gym-1.jpg"
             alt="Фото зала"
             width={1600}
             height={900}
@@ -99,7 +99,7 @@ const GymSwiper = () => {
         <SwiperSlide>
           <Image
             className={styles.image}
-            src="/gym/gym-1.jpg"
+            src="/top-fight-gym/gym/gym-1.jpg"
             alt="Фото зала"
             width={1600}
             height={900}

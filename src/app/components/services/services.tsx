@@ -1,7 +1,7 @@
 import { FC } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import Container from "@/components/container/container";
-import Link from "@/components/link/link";
+// import Link from "@/components/link/link";
 import Typography from "@/components/typography/typography";
 import styles from "./services.module.scss";
 
@@ -44,7 +44,10 @@ type ServiceProps = {
   description: string;
 };
 
-const Service: FC<ServiceProps> = ({ href, title, description }) => {
+const Service: FC<ServiceProps> = ({ 
+  // href, 
+  title, 
+  description }) => {
   return (
     <li className={styles['service-item']}>
       {/* <Link className={styles.link} href={href}> */}

@@ -69,7 +69,7 @@ const Question: FC<QuestionProps> = ({ question, answer }) => {
           onClick={handleButtonShowClick}
         >
           <Image
-            src="/expand.svg"
+            src="/top-fight-gym/expand.svg"
             alt={isShown ? "Скрыть" : "Раскрыть"}
             width={24}
             height={24}
