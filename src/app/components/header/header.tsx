@@ -69,7 +69,7 @@ const Header = () => {
         <ul className={styles["nav-list"]}>
           {navData.map(({ href, title }, index) => (
             <li key={index} className={styles["nav-item"]}>
-              <Link href={href}>
+              <Link href={href} onClick={handleButtonShowClick}>
                 <Typography
                   variant="h5"
                   component="p"
